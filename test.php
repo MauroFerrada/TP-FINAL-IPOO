@@ -371,10 +371,10 @@ function MenuViaje(){
             case '5': //Opcion Para crear un viaje
                 
                 $objViaje = new viaje();
-                     echo "Ingrese el id del viaje: \n";
-                    $idV = trim(fgets(STDIN));
-                    $bool= true;
-                   while ($bool) {
+                    // echo "Ingrese el id del viaje: \n";
+                   // $idV = trim(fgets(STDIN));
+                   // $bool= true;
+                  /* while ($bool) {
 
                     if($objViaje->buscar($idV)){
                         echo "El id ya existe\n";
@@ -385,7 +385,7 @@ function MenuViaje(){
                         $bool = false;                     
                     } 
                    
-                   }
+                   }*/
                    
                     echo "Ingrese el destino: \n";
                     $destino = trim(fgets(STDIN));                   
@@ -717,7 +717,7 @@ function MenuEmpresa(){
                     //cargar empresa
                     $bool = true;
                     $objEmpresa = new empresa();
-                        echo "Ingrese el id de la empresa: \n";
+                     /*   echo "Ingrese el id de la empresa: \n";
                         $bool = true;
                        while ($bool) {
                         $idE = trim(fgets(STDIN));
@@ -728,7 +728,7 @@ function MenuEmpresa(){
                             $objEmpresa->setIdEmpresa($idE);
                             $bool = false;
                         }
-                       }
+                       }*/
                    
                     echo "Ingrese el nombre de la empresa: \n";
                     $nombre = trim(fgets(STDIN));
