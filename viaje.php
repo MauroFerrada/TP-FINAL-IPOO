@@ -308,7 +308,7 @@ public function __toString(){
   "Destino: " . $this->getDestino() . "\n" .
   "Cantidad máxima de pasajeros: " . $this->getCantMaxPasajeros() . "\n".
   "Costo: " . $this->getCosto() . "\n" . 
-  "Suma de costos: " . $this->getSumaCostos() . "\n" . 
+
   "Empresa: " . $this->getEmpresa() . "\n" .
   "Responsable: " . "\n" .$this->getResponsableV() . "\n" ;
 }
