@@ -1,6 +1,6 @@
 <?php
 
-use Viaje as GlobalViaje;
+
 
 class Viaje {
   private $codeViaje;
